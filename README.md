@@ -24,7 +24,7 @@ The nonprofit foundation Alphabet Soup is seeking a tool for screening applicant
 
 + How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-    I selected the following in the final and most successful model,  'AlphabetSoupCharity_Optimisation_V3':
+    After trial and error, I selected the following in the final and most successful model,'AlphabetSoupCharity_Optimisation_V3':
 
     *First Hidden Layer*: 100 neurons, ReLU activation, kernel regularisation, and a dropout rate of 0.3.
 
@@ -41,6 +41,8 @@ The nonprofit foundation Alphabet Soup is seeking a tool for screening applicant
 
     In the third optimisation model AlphabetSoupCharity_Optimisation_V3, I was able to successfully achieve target performance, with an accuracy score of 79.70% (rounded), which was above the accuracy target of 75%.
 
+    *Snippet of V3 code performance output*:
+    ![Output](AlphabetSoupCharity_Optimisation_V3_Output.PNG)
 
 + What steps did you take in your attempts to increase model performance?
     I performed the following to improve my model and ultimately achieve a target accuracy performance of 79.90%.
